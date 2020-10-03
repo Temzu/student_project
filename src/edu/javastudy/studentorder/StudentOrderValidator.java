@@ -1,3 +1,12 @@
+package edu.javastudy.studentorder;
+
+import edu.javastudy.studentorder.domain.*;
+import edu.javastudy.studentorder.mail.MailSender;
+import edu.javastudy.studentorder.validator.ChildrenValidator;
+import edu.javastudy.studentorder.validator.CityRegisterValidator;
+import edu.javastudy.studentorder.validator.MarriageValidator;
+import edu.javastudy.studentorder.validator.StudentValidator;
+
 public class StudentOrderValidator {
     public static void main(String[] args) {
         checkAll();
