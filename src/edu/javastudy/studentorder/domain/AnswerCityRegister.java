@@ -1,3 +1,5 @@
+package edu.javastudy.studentorder.domain;
+
 public class AnswerCityRegister {
-    boolean success;
+    public boolean success;
 }
