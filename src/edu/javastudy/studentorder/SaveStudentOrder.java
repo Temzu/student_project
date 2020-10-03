@@ -1,5 +1,6 @@
 package edu.javastudy.studentorder;
 
+import edu.javastudy.studentorder.domain.Adult;
 import edu.javastudy.studentorder.domain.StudentOrder;
 
 public class SaveStudentOrder {
@@ -18,6 +19,12 @@ public class SaveStudentOrder {
     }
 
     static void sendFinanceStudentOrder() {
+    }
 
+    StudentOrder buildStudentOrder() {
+        StudentOrder so = new StudentOrder();
+        Adult husband = new Adult();
+        so.setHusband(husband);
+        return so;
     }
 }
